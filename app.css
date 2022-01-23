@@ -1,0 +1,80 @@
+body {
+  background: #d53369; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #cbad6d,
+    #d53369
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #cbad6d,
+    #d53369
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: "Nunito", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+}
+
+.blurb h2 {
+  color: #cbad6d;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+#gumballText {
+  color: #d53369;
+}
+
+#gumballP {
+  color: #d53369;
+}
+
+.blurb p {
+  color: #cbad6d;
+  font-weight: 100;
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+  color: white;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #ea1c2c;
+}
+
+#mainNavbar .navbar-brand {
+  color: #ea1c2c;
+}
+
+#headingGroup span {
+  color: #ea1c2c;
+}
+#headingGroup h1 {
+  font-weight: 100;
+  font-size: 3rem;
+}
+
+.navbar.scrolled {
+  background-color: rebeccapurple;
+  opacity: 0.6;
+  transition: background 200ms;
+}
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-weight: 100;
+    font-size: 2rem;
+  }
+}
